@@ -6,15 +6,21 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+async-channel = "2.3.1"
+async-compat = "0.2.4"
 async-recursion = "1.1.1"
 bytes = "1.7.1"
 fastrand = "2.1.1"
 futures = "0.3.30"
+futures-lite = "2.3.0"
+macro_rules_attribute = "0.2.0"
 nanoid = "0.4.0" 
 rand = "0.8.5"
 reqwest = "0.12.7"
 serde = { version = "1.0.209", features = ["derive"] }
 serde_json = "1.0.127"
+smol = "2.0.1"
+smol-macros = "0.1.1"
 tokio = { version = "1", features = ["full"] }
 tokio-macros = "2.4.0"
 tokio-serde = "0.9.0"
